@@ -51,8 +51,8 @@ catch {
 }
 
 # Paths for added/removed logs
-$AddedMembersLogsPath = 'F:\SysAdmins\Powershell_Schedule_Jobs\AAD to AD Group Sync\Logs\MembersAdded.log'
-$RemovedUsersLogsPath = 'F:\SysAdmins\Powershell_Schedule_Jobs\AAD to AD Group Sync\Logs\MembersRemoved.log'
+$AddedMembersLogsPath = 'Path...\MembersAdded.log'
+$RemovedUsersLogsPath = 'Path...\MembersRemoved.log'
 
 foreach ($groupPair in $groupPairs) {
     $SourceGroupName = $groupPair.Source
